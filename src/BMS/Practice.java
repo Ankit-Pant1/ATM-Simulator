@@ -1,5 +1,5 @@
 
-package ASimulatorSystem;
+package BMS;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

@@ -1,10 +1,9 @@
-package ASimulatorSystem;
+package BMS;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.ResultSet;
 import javax.swing.*;
-import java.util.*;
 
 class BalanceEnquiry extends JFrame implements ActionListener {
 
@@ -16,7 +15,7 @@ class BalanceEnquiry extends JFrame implements ActionListener {
     BalanceEnquiry(String pin) {
         this.pin = pin;
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("ASimulatorSystem/icons/atm.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("BMS/icons/atm.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1000, 1180, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l3 = new JLabel(i3);

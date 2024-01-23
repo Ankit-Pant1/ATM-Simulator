@@ -1,4 +1,4 @@
-package ASimulatorSystem;
+package BMS;
 
 import java.awt.*;
 import java.awt.event.*;
